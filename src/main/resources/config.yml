@@ -1,0 +1,8 @@
+role:
+  member:
+    name: "成员"
+  administrator:
+    name: "协助者"
+  owner:
+    name: "负责人"
+world: "Space"

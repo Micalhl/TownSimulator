@@ -1,0 +1,51 @@
+title: "[StarrySky](gradient=#f6d365,#fda085) &8| 聚落系统"
+shape:
+  - 'FFFFFFFFF'
+  - 'FFAFBFCFF'
+  - 'FFFFFFFFF'
+
+templates:
+  'F':
+    material: BLACK_STAINED_GLASS_PANE
+  'A':
+    material: PLAYER_HEAD
+    name: "&e创建聚落"
+    lore:
+      - ""
+      - " &7在这里建立聚落。"
+      - " &7创建前请确保建立申请已通过。"
+      - ""
+      - "&e点击创建聚落!"
+    feature:
+      - ==: Head
+        texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2NzBjNzlkZjNjMTg5MmYxODE5NjNhYjE3MjIxNTRjMjEzYjFjZmQ0ZTAxMDZkZWUwMWVmNWM3M2VjMjg4ZCJ9fX0="
+      - ==: Functional
+        keyword: "TownMainMenu:create"
+  'B':
+    material: PLAYER_HEAD
+    name: "&e加入聚落"
+    lore:
+      - ""
+      - " &7在这里查看所有聚落。"
+      - " &7你可以点击聚落发送加入申请。"
+      - ""
+      - "&e点击选择聚落!"
+    feature:
+      - ==: Head
+        texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlkZTcwZTRlYTAxOGIyM2ZiNjI0MWViMmQ1MjQ0ZTc5NzczMjY5Yjc2NjllMzc5ZTg5ZmIzYzNhYjllZGEzIn19fQ=="
+      - ==: Functional
+        keyword: "TownMainMenu:join"
+  'C':
+    material: PLAYER_HEAD
+    name: "&e查看聚落"
+    lore:
+      - ""
+      - " &7如果你已经处在聚落中,"
+      - " &7点击即可查询聚落详情。"
+      - ""
+      - "&e点击查看你所处的聚落!"
+    feature:
+      - ==: Head
+        texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMzZjg1NGJiNjUyNjVhYjNmZjJlMzYyNjY5YTVmODA2YWI4NGRjMjQwYTRiOTlmOWE2MmFiNzI2NzcyOGJhMyJ9fX0="
+      - ==: Functional
+        keyword: "TownMainMenu:my"
